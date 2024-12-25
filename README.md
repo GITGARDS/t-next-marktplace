@@ -23,5 +23,7 @@ npx shadcn@latest init -d
 ------------
 kinde
 https://kinde.com/?utm_source=yt&utm_medium=content&utm_campaign=jan
-
+yarn add @kinde-oss/kinde-auth-nextjs
+------------
+https://tiptap.dev/
 
