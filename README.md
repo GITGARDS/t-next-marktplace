@@ -25,5 +25,15 @@ kinde
 https://kinde.com/?utm_source=yt&utm_medium=content&utm_campaign=jan
 yarn add @kinde-oss/kinde-auth-nextjs
 ------------
+formatacao de texto
 https://tiptap.dev/
-
+------------
+https://uploadthing.com/
+yarn add uploadthing @uploadthing/react
+------------
+https://supabase.com/
+------------
+prisma
+yarn add -D prisma
+yarn add @prisma@client
+------------
