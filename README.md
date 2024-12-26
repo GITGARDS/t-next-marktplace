@@ -37,3 +37,7 @@ prisma
 yarn add -D prisma
 yarn add @prisma@client
 ------------
+validacoes schemas
+zod
+yarn add -D zod
+------------
