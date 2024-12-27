@@ -12,17 +12,17 @@ export const navBarLinks = [
   {
     id: 1,
     name: "Templates",
-    href: "#",
+    href: "/products/template",
   },
   {
     id: 2,
     name: "UI Kits",
-    href: "#",
+    href: "/products/uikit",
   },
   {
     id: 3,
     name: "Icons",
-    href: "#",
+    href: "/products/icon",
   },
 ];
 
@@ -45,7 +45,6 @@ export function NavBarLinks() {
           {item.name}
         </Link>
       ))}
-      <h1>{location}</h1>
     </div>
   );
 }

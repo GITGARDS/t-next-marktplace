@@ -4,8 +4,8 @@ import { MobileMenu } from "./MobileMenu";
 import { NavBarLinks } from "./NavBarLinks";
 
 import {
-    LoginLink,
-    RegisterLink,
+  LoginLink,
+  RegisterLink,
 } from "@kinde-oss/kinde-auth-nextjs/components";
 
 import { getKindeServerSession } from "@kinde-oss/kinde-auth-nextjs/server";

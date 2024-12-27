@@ -45,7 +45,9 @@ export function UserNav({ email, name, userImage }: IUserNavProps) {
           <DropdownMenuItem asChild>
             <Link href={"/sell"}>Sell your Produtct</Link>
           </DropdownMenuItem>
-          <DropdownMenuItem>Text Item</DropdownMenuItem>
+          <DropdownMenuItem>
+            <Link href={"/settings"}>Settings</Link>                          
+          </DropdownMenuItem>
           <DropdownMenuItem>Text Item</DropdownMenuItem>
           <DropdownMenuItem>Text Item</DropdownMenuItem>
         </DropdownMenuGroup>
