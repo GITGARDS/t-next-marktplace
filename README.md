@@ -36,8 +36,16 @@ https://supabase.com/
 prisma
 yarn add -D prisma
 yarn add @prisma@client
+toda vez que alterar o schema.prisma rodar comando
+    npx prisma db push
+prista studio
+    npx prisma studio
 ------------
 validacoes schemas
 zod
 yarn add -D zod
+------------
+stripe
+https://stripe.com/br
+npm i stripe
 ------------

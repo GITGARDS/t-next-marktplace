@@ -45,11 +45,15 @@ export function UserNav({ email, name, userImage }: IUserNavProps) {
           <DropdownMenuItem asChild>
             <Link href={"/sell"}>Sell your Produtct</Link>
           </DropdownMenuItem>
-          <DropdownMenuItem>
+          <DropdownMenuItem asChild>
             <Link href={"/settings"}>Settings</Link>                          
           </DropdownMenuItem>
-          <DropdownMenuItem>Text Item</DropdownMenuItem>
-          <DropdownMenuItem>Text Item</DropdownMenuItem>
+          <DropdownMenuItem asChild>
+            <Link href={"my-products"}>My Products</Link>                          
+          </DropdownMenuItem>
+          <DropdownMenuItem asChild>
+            <Link href={"/billing"}>Billing</Link>                          
+          </DropdownMenuItem>
         </DropdownMenuGroup>
         <DropdownMenuSeparator />
         <DropdownMenuItem asChild>
